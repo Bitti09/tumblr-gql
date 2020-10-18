@@ -1,5 +1,5 @@
 const express = require('express');
-const graphqlHTTP = require('express-graphql');
+const { graphqlHTTP } = require('express-graphql');
 const app = express();
 const cors = require('cors')
 const expressPlayground = require('graphql-playground-middleware-express').default
@@ -11,9 +11,10 @@ const FullSchema = require('gql-tumblr')({
     token: "token",
     token_secret: "token_secret",
 });
+console.log({fullSchema})
 app.use(cors());
 app.use('/graphql', graphqlHTTP({
-    schema: FullSchema,
+    schema: fullSchema,
     graphiql: true
 }));
 app.get('/playground', expressPlayground({ endpoint: '/graphql' }))
