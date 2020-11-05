@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.4",
-    "express": "^4.16.3",
-    "express-graphql": "^0.6.12",
-    "graphql-playground-middleware-express": "^1.6.3",
-    "gql-tumblr": "^1.0.2"
+    "@bitti09/gql-tumblr": "git+https://github.com/Bitti09/gql-tumblr.git",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql-playground-middleware-express": "^1.7.22"
   }
 }
