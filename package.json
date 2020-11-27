@@ -12,7 +12,7 @@
     "@bitti09/gql-tumblr": "git+https://github.com/Bitti09/gql-tumblr.git",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
+    "express-graphql": "^0.12.0",
     "graphql-playground-middleware-express": "^1.7.22"
   }
 }
