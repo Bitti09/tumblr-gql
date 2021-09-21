@@ -1,5 +1,5 @@
 {
-  "name": "Tumblr-Graphql-Server",
+  "name": "tumblr-graphql-server",
   "version": "1.0.0",
   "description": " Uses  gql-tumblr&rexpress to create a simple  graphql server for tumblr api",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "gql-tumblr": "file:../gql-tumblr",
-    "graphql": "^15.3.0",
+    "graphql": "^15.6.0",
     "graphql-playground-middleware-express": "^1.7.22"
   },
   "resolutions": {
