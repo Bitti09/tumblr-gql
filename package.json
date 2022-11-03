@@ -16,6 +16,6 @@
     "graphql-playground-middleware-express": "^1.7.23"
   },
   "resolutions": {
-    "graphql": "^15.x"
+    "graphql": "^16.0.0"
   }
 }
