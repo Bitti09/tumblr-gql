@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.21.0",
     "express-graphql": "^0.12.0",
     "gql-tumblr": "https://github.com/Bitti09/gql-tumblr.git",
     "graphql-playground-middleware-express": "^1.7.23"
